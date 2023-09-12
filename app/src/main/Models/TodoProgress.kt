@@ -1,0 +1,1 @@
+enum class TodoProgress { PENDING, IN_PROGRESS, DONE }
