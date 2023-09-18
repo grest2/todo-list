@@ -1,3 +1,5 @@
+package models.todo
+
 data class TodoItem(
 
     val id: String,

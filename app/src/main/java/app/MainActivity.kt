@@ -1,7 +1,8 @@
-package com.example.todo_list
+package app
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.todo_list.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
