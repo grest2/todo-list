@@ -1,4 +1,4 @@
-package presentation
+package presentation.models
 
 import models.todo.TodoItem
 

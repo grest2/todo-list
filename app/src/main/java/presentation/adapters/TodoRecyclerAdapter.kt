@@ -1,4 +1,4 @@
-package presentation
+package presentation.adapters
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView

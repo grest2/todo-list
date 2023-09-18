@@ -1,3 +1,3 @@
-package models.todo
+package models
 
 class ItemRepository<TItem>(val items: Array<TItem>) { }
