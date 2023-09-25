@@ -14,8 +14,10 @@ import java.util.UUID
 
 class MainActivity : AppCompatActivity() {
 
+    // region Private
     private lateinit var binding: ActivityMainBinding
     private lateinit var todoAdapter: TodoRecyclerAdapter
+
     private val todoRepository: ItemRepository<TodoItem> = ItemRepository<TodoItem>(
         arrayOf(
             TodoItem(UUID.randomUUID().toString(),
@@ -35,6 +37,8 @@ class MainActivity : AppCompatActivity() {
             )
         )
     )
+    // endregion
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
